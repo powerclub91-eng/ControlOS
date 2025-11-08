@@ -1,0 +1,11 @@
+#!/bin/bash
+SYS_DIR="$HOME/ControlOS_Settings"
+for f in "$SYS_DIR"/*.sh; do
+  if [ ! -f "$f" ]; then
+    clear
+    echo -e "\033[1;41m💀 BSOD 💀\033[0m"
+    echo "Critical system file missing: $(basename $f)"
+    sleep 3
+    bash "$SYS_DIR/recovery.sh"
+  fi
+done

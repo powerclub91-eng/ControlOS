@@ -1,0 +1,5 @@
+ControlOS Version: 1.0
+Author: Kulichuk Arsenii
+Build Date: 2 November 2025 - ???
+System Path: ~/ControlOS_Settings
+Integrity: Verified

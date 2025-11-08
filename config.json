@@ -1,0 +1,12 @@
+{
+  "name": "ControlOS",
+  "version": "0.1",
+  "critical_files": [
+    "os.sh",
+    "bios.sh",
+    "controlos.sh",
+    "boot.check",
+    "recovery.sh",
+    "bsod.sh"
+  ]
+}
