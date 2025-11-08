@@ -44,7 +44,13 @@ An integrated **iStore** lets you install mini-apps made for ControlOS, such as:
 - 🧮 Calc – simple command-line calculator  
 - 🗂️ File Manager – manage files and folders through text interface  
 - 🧠 System Monitor – check uptime, RAM usage (simulated), and CPU activity  
+---
 
-Each app is written in pure Bash and can be installed or removed using:
-```bash
-bash iStore.sh
+## ⚠️ Troubleshooting & Privileges
+
+If you see this message The "boot.command" file could not be executed because you do not have the appropriate access privileges... while running ControlOS:
+That means your system scripts are not yet executable.
+
+To fix this, open the Terminal and run:
+
+```sudo chmod -R 755 /Users/$USER/ControlOS_Settings
